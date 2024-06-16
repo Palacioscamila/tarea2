@@ -1,0 +1,8 @@
+.section_inner {
+    padding: 50px 10% 30px;
+}
+
+.key {
+    height: 500px;
+    background: center / cover no-repeat url("C:\Users\dic_cafe\imagenes\sample_key.jpg");
+}
