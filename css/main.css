@@ -29,9 +29,11 @@ z h1 {
 
 .key {
     height: 500px;
+    background: center / cover no-repeat url(../imagenes/sample_key.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: 'Noto Serif JP', serif;
-    background: center / cover no-repeat url("../imagenes/sample_key.jpg");
-    font-weight: bold;
 }
 
 .key h1 {
@@ -65,14 +67,15 @@ z h1 {
 }
 
 .header_nav {
-    background: rgba(0, 0, 0, .6);
+    background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, .6) 60%);
     display: flex;
-    height: 60px;
     justify-content: space-between;
     align-items: stretch;
+    height: 60px;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .global_nav {
@@ -81,11 +84,12 @@ z h1 {
 }
 
 .global_nav_item {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: #fff;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
 }
 
 .global_nav_item:hover {
@@ -118,7 +122,11 @@ z h1 {
 }
 
 .concept_image {
-    width: 50%;
+    width: 35%;
+}
+
+.concept_content {
+    width: 60%;
 }
 
 .fondo {
